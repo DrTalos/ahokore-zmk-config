@@ -1,4 +1,4 @@
-/*
+eeeeeeeeeee/*
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
@@ -77,7 +77,7 @@ behaviors {
                         bindings = <
    &kp N1    &kp N2    &kp N3    &kp N4      &kp N5      &kp N6    &kp N7    &kp N8    &kp N9     &kp N0
    &kp EXCL  &kp AT    &kp HASH  &hm LSHFT DOLLAR  &kp PRCNT   &kp CARET &hm RSHFT AMPS  &kp STAR  &kp EQUAL  &kp SEMI
-   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR    &kp MINUS   &kp RPAR  &kp RBKT  &kp UNDER &kp PLUS    &kp GRAVE
+   &kp BSLH  &kp LBRC  &kp LBKT  &kp LPAR    &kp MINUS   &kp RPAR  &kp RBKT  &kp RBRC &kp PLUS    &kp GRAVE
    &trans    &trans    &trans    &trans      &trans      &trans
                         >;
                 };
