@@ -111,14 +111,14 @@ behaviors {
                 
                 sys_layer4 {
 // -----------------------------------------------------------------------------------------
-// |BTCLR| RST |       |     |       |      | PGDN  |   UP  | PGUP |      |
-// | BT0 |CMENU|       |     |       | HOME | LEFT  |  DOWN |RIGHT | END  |
-// | BT1 | BOOT|       |     |       |      |       |       |      |      |
+// |BTCLR| RST |       |     |       |      |       |       |      | VOL U|
+// | BT0 |CMENU|       |     |       |      | PREV  |  PP   | NEXT | VOL D|
+// | BT1 | BOOT|       |     |       |      |       |       |      | MUTE |
 //             | ESC/3 |SPC/1| TAB/2 | BKS  | ENT/1 | DEL/4 |
                         bindings = <
-   &bt BT_CLR   &reset      &trans  &trans &trans     &trans    &kp PG_DN &kp UP    &kp PG_UP &trans
-   &bt BT_SEL 0 &kp K_CMENU &trans  &trans &trans     &kp HOME  &kp LEFT  &kp DOWN  &kp RIGHT &kp END
-   &bt BT_SEL 1 &bootloader &trans  &trans &trans     &trans    &trans    &trans    &trans    &trans
+   &bt BT_CLR   &reset      &none  &none &none   &none   &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE &none
+   &bt BT_SEL 0 &kp K_CMENU &none  &none &none   &none   &kp C_PREV    &kp C_PP      &kp C_NEXT &none
+   &bt BT_SEL 1 &bootloader &none  &none &none   &none   &kp C_BRI_UP  &kp C_BRI_DN  &none      &none
    &trans   &trans    &trans     &trans   &trans   &trans
                         >;
                 };
