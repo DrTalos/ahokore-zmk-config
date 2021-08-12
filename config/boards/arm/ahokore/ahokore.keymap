@@ -15,7 +15,7 @@ behaviors {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
         #binding-cells = <2>;
-        tapping_term_ms = <250>;
+        tapping_term_ms = <200>;
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
@@ -98,7 +98,7 @@ behaviors {
                 nav_layer3 {
 // -----------------------------------------------------------------------------------------
 // |     |     |       |     |       | HM  |  PU   |  UP   |  PD  |  END  |
-// | GUI |LALT | LCTL  | SFT |       | RE  |  LT   |  DN   |  RT  |  UND  |
+// | GUI |LALT | LCTL  | SFT |       | UND |  LT   |  DN   |  RT  |  RE   |
 // |     |     |       |     |       | CAP | CPY   |  PST  |  CUT |  INS  |
 //             | ESC/3 |SPC/1| TAB/2 | BKS | ENT/1 | DEL/4 |
                         bindings = <
@@ -111,10 +111,10 @@ behaviors {
                 
                 sys_layer4 {
 // -----------------------------------------------------------------------------------------
-// |BTCLR| RST |       |     |       |      |       |       |      | VOL U|
-// | BT0 |CMENU|       |     |       |      | PREV  |  PP   | NEXT | VOL D|
-// | BT1 | BOOT|       |     |       |      |       |       |      | MUTE |
-//             | ESC/3 |SPC/1| TAB/2 | BKS  | ENT/1 | DEL/4 |
+// |BTCLR| RST |       |     |  BT1  |      | V_up   |  V_dn  | mute |      |
+// |     |CMENU|       |     |  BT2  |      | PREV   |  PP    | NEXT |      |
+// |     | BOOT|       |     |  BT3  |      | Bri_up | Bri_dn |      |      |
+//             | ESC/3 |SPC/1| TAB/2 | BKS  | ENT/1  | DEL/4  |
                         bindings = <
    &bt BT_CLR   &reset      &none  &none &bt BT_SEL 0   &none   &kp C_VOL_UP  &kp C_VOL_DN  &kp C_MUTE &none
    &none        &kp K_CMENU &none  &none &bt BT_SEL 1   &none   &kp C_PREV    &kp C_PP      &kp C_NEXT &none
