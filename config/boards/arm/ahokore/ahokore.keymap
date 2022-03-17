@@ -47,7 +47,7 @@ behaviors {
     };
     combo_semi {
         timeout-ms = <65>;
-        key-positions = <18 19>;
+        key-positions = <17 18 19>;
         bindings = <&kp SEMI>;
     };
     combo_LSHIFT {
@@ -59,6 +59,11 @@ behaviors {
         timeout-ms = <65>;
         key-positions = <11 12>;
         bindings = <&kp LCTRL>;
+    };
+    combo_LALT {
+        timeout-ms = <65>;
+        key-positions = <10 11>;
+        bindings = <&kp LALT>;
     };
 };
 
