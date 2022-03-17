@@ -55,6 +55,11 @@ behaviors {
         key-positions = <12 13>;
         bindings = <&kp LSHIFT>;
     };
+    combo_LCTRL {
+        timeout-ms = <65>;
+        key-positions = <11 12>;
+        bindings = <&kp LCTRL>;
+    };
 };
 
 };
