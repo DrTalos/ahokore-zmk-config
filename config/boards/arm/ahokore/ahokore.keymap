@@ -124,6 +124,7 @@ behaviors {
         key-positions = <3 4>;
         bindings = <&kp C_PWR>;
         layers = <4>;
+    };
 };
 
 };
