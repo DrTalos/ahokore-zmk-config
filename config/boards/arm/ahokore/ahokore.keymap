@@ -58,19 +58,19 @@ behaviors {
     };
     combo_pp {
         timeout-ms = <50>;
-        key-positions = <5 6>;
+        key-positions = <25 26>;
         bindings = <&kp C_PP>;
         layers = <2>;
     };
     combo_NXT {
         timeout-ms = <50>;
-        key-positions = <15 16>;
+        key-positions = <5 6>;
         bindings = <&kp C_NEXT>;
         layers = <2>;
     };
     combo_PREV {
         timeout-ms = <50>;
-        key-positions = <25 26>;
+        key-positions = <15 16>;
         bindings = <&kp C_PREV>;
         layers = <2>;
     };
@@ -119,6 +119,11 @@ behaviors {
         key-positions = <16 19>;
         bindings = <&kp RGUI>;
     };
+    combo_PWR {
+        timeout-ms = <50>;
+        key-positions = <3 4>;
+        bindings = <&kp C_PWR>;
+        layers = <4>;
 };
 
 };
