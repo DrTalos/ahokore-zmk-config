@@ -43,7 +43,36 @@ behaviors {
         key-positions = <25 26>;
         bindings = <&kp C_MUTE>;
         layers = <0>;
-
+    };
+    combo_briup {
+        timeout-ms = <50>;
+        key-positions = <5 6>;
+        bindings = <&kp C_BRI_UP>;
+        layers = <1>;
+    };
+    combo_bridown {
+        timeout-ms = <50>;
+        key-positions = <15 16>;
+        bindings = <&kp C_BRI_DN>;
+        layers = <1>;
+    };
+    combo_pp {
+        timeout-ms = <50>;
+        key-positions = <5 6>;
+        bindings = <&kp C_PP>;
+        layers = <2>;
+    };
+    combo_NXT {
+        timeout-ms = <50>;
+        key-positions = <15 16>;
+        bindings = <&kp C_NEXT>;
+        layers = <2>;
+    };
+    combo_PREV {
+        timeout-ms = <50>;
+        key-positions = <25 26>;
+        bindings = <&kp C_PREV>;
+        layers = <2>;
     };
     combo_semi {
         timeout-ms = <65>;
