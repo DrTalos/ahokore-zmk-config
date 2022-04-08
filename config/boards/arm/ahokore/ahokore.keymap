@@ -119,14 +119,7 @@ behaviors {
         key-positions = <16 19>;
         bindings = <&kp RGUI>;
     };
-    combo_PWR {
-        timeout-ms = <50>;
-        key-positions = <3 4>;
-        bindings = <&kp C_PWR>;
-        layers = <4>;
     };
-};
-
 };
         keymap {
                 compatible = "zmk,keymap";
