@@ -119,11 +119,7 @@ behaviors {
         key-positions = <16 19>;
         bindings = <&kp RGUI>;
     };
-    combo_LCTSF {
-        timeout-ms = <65>;
-        key-positions = <11 12 13>;
-        bindings = <&kp LSHIFT(LCTRL)>;
-    };
+
 };
 
 };
